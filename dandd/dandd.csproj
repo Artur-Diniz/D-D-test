@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="ViewModels\Class1.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Roboto-Black.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-BlackItalic.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-Bold.ttf" />

@@ -14,5 +14,24 @@ namespace dandd.Models
         public string name { get; set; }
         public string index { get; set; }
         public string url { get; set; }
+
+        //public async Task<List> RaçasdeDnDAync()
+        //{
+
+        //    raca = new Raca();
+
+        //    Uri uri = new Uri (url="https://www.dnd5eapi.co/api/races");
+
+        //    try
+        //    {
+
+        //    }
+        //    catch (Exception ex)
+        //    { 
+            
+        //    }
+       //} 
     }
 }
+
+   

@@ -6,17 +6,137 @@
     <Frame BorderColor="Gray"
        CornerRadius="5"
        Padding="8">
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
+           
             <Label Text="Raças"
-           FontSize="26"
+           FontSize="48"
            FontAttributes="Bold"
            HorizontalTextAlignment="Center"/>
-            
-            <BoxView Color="Gray"
-             HeightRequest="2"
-             HorizontalOptions="Fill" />
+
+ 
+
+
+
+                <Label Text=""/>
+
+                <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
 
             <Label />
-        </StackLayout>
+
+
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+
+
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+
+                
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+
+            <Label
+                
+                FontSize="16"
+                Text="{Binding Raca.Name}"
+                TextColor="Black"
+                   BackgroundColor="DarkGray"
+                   HeightRequest="70"
+                   WidthRequest="300"/>
+
+            <Label />
+
+                <Label
+                    
+                TextColor="Black"
+                   BackgroundColor="Gray"
+                   HeightRequest="55"
+                   WidthRequest="720"/>
+
+                <Label />
+
+            </StackLayout>
+            
+        </ScrollView>
+        
+
     </Frame>
 </ContentPage>
